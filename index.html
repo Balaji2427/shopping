@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping App UI</title>
+</head>
+<body>
+    <div class="layout">
+        <div class="navbar">
+            <h1 class="title">Aeezah</h1>
+            <ul class="list">
+                <li class="list-items">NEW ARRIVALS</li>
+                <li class="list-items">SHOP</li>
+                <li class="list-items">BEAUTY</li>
+                <li class="list-items">SALE</li>
+                <li class="list-items">JOURNAL</li>
+            </ul>
+            <button class="login">Login</button>
+        </div>
+        
+        <div class="section1">
+            <div>
+                <h1 class="fabric-title">FABRIC THAT SPEAKS</h1>
+                <div class="buttons">
+                    <button class="view">VIEW ALL</button>
+                    <button class="watch">Watch now</button>
+                </div>
+            </div>
+            <div class="box">
+                <p class="image" id="new-edition"></p>
+                <p class="p-title">New Edition</p>
+            </div>
+        </div>
+
+        <div class="section2">
+            <div class="box">
+                <p class="p-title">Shirts</p>
+                <p class="image" id="shirts"></p>
+            </div>
+            <div class="box">
+                <p class="p-title">Hoodies</p>
+                <p class="image" id="hoodies"></p>
+            </div>
+            <div>
+                <p class="fashion-title">Fashion is not about clothes, It is about a look.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js">
+        let imgEl = document.getElementById('new-edition');
+        imgEl.innerHTML+= '<img src="https://res.cloudinary.com/difbmfdoo/image/upload/v1708066869/My_project_11_1_dz1lph.png">';
+    </script>
+</body>
+</html>
